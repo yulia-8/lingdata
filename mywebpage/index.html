@@ -44,27 +44,27 @@
 
 <!-- начинается шапка. у тега header есть атрибут style, который задает цвет фона и отступы. поменяйте значения атрибутов и посмотрите, как изменится страница -->
 
-		<header style="background-color:lavenderblush; padding-top:70px; "> 
+		<header style="background-color: #FBEFEF; padding-top:70px; "> 
 			<div class="container"> 
 				<div class="row">
 					<div class="col-md-4">
 						<br><br>
 <!-- здесь и дальше нужно поменять весь содержательный текст, чтобы получилась ваша личная страница -->
-						<h1>Юля Бумагина</h1>
-						<hr> <!-- это горизонтальная линия -->
-						<p><i>Человек, умеющий <b>создавать HTML</b></i></p> 
+						<h1 style="color: #3B1F2B;">Юля Бумагина</h1>
+						<hr style="border-color: #B56576;"> <!-- это горизонтальная линия -->
+						<p style="color: #3B1F2B;"><i>Человек, умеющий <b>создавать HTML</b></i></p> 
 					</div>
 					<div class="col-md-4">
 <!-- img - тег для вставки изображений. Мы использовали атрибут style, чтобы задать размер изображения и ширину рамки-->
 <!-- Измените URL на URL вашей фотографии, а также настройте размер изображения -->
-<img src="myphoto.jpg" style="height:320px; margin:20px 20px 40px 20px; " >
+<img src="myphoto.jpg" style="height:320px; margin:20px 20px 40px 20px; border: 4px solid #FFF8F3; border-radius: 12px;" >
 					</div>
 				</div>
 			</div>
 		</header>
 
 <!-- часть страницы, которая под шапкой -->
-		<section id="portfolio">
+		<section id="portfolio" style="background-color: #FFF8F3; color: #4A3B3B; padding: 40px 0;">
 			<div class="container">
 
 <!-- атрибут col-md-... говорит, что контент будет разделен на несколько столбцов, их ширина соотносится как 3 - 6 - 3 (Bootstrap использует воображаемую сетку из 12 равных по ширине колонок) -->
@@ -105,16 +105,16 @@
 					<h3>Я в соцсетях</h3>
 <!-- тег <ul> - unordered list. Еще бывает тег <ol> -->
 					<ul>
-						<li> <a href="https://vk.ru/id502229699">VK</a></li>
-						<li> <a href="https://github.com/yulia-8">Github</a></li>
-						<li> <a href="https://t.me/yuliya_bum">Telegram</a></li>
+						<li> <a href="https://vk.ru/id502229699" style="color: #A23E48;">VK</a></li>
+						<li> <a href="https://github.com/yulia-8" style="color: #A23E48;">Github</a></li>
+						<li> <a href="https://t.me/yuliya_bum" style="color: #A23E48;">Telegram</a></li>
 					</ul>
 				</div>
 			</div>
 		</section>
 
 <!-- это подвал. В этой части страницы обычно ставят копирайт (с помощью символа &copy;) и пишут об истории создания страницы. Поставьте свой копирайт -->
-		<footer class="bs-docs-footer"> 
+		<footer class="bs-docs-footer" style="background-color: #FFF8F3; color: #4A3B3B с; padding: 25px 0;"> 
 			<div class="container"> 
 				<p style="text-align:right; ">&copy; Ю. Бумагина, 2026</p> 
 			</div>
